@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Tokio Marine Claim Submission</title>
+    <meta name="theme-color" content="#d0cbcb">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0-ui">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/icon-512x512.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#" style="background: url(&quot;assets/img/icon-48x48.png&quot;) no-repeat;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tokio Marine</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="automobile.html">Automobile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hospital.html">Hospital</a></li>
+                    <li class="nav-item"><a class="nav-link" href="personal-accident.html">Personal Accident</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page hire-me-page">
+        <section class="portfolio-block hire-me" style="padding: 59px 0px;padding-top: 28px;padding-bottom: 60px;">
+            <div class="container">
+                <div class="heading">
+                    <h2 style="margin-bottom: -40px;">Automobile CLaim</h2>
+                </div>
+                <form style="padding-top: 0px;">
+                    <div class="mb-3"><label class="form-label" for="email">Policy No</label><input class="form-control" type="email" id="policyNo"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Name of Insured</label><input class="form-control" type="email" id="nameOfInsured"></div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-6"><label class="form-label" for="hire-date">Place</label><input class="form-control" type="text" id="place"></div>
+                            <div class="col-md-6 button"><label class="form-label" for="hire-date">Date of Loss</label><input class="form-control" id="dateOfLoss" type="date"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3"><label class="form-label" for="message">Summary of Loss</label><textarea class="form-control" id="summaryOfLoss"></textarea></div>
+                    <div class="mb-3"><label class="form-label" for="subject">Date of Treatment</label><input class="form-control" id="dateOfTreatment" type="date"></div>
+                    <div class="mb-3"><label class="form-label" for="message">Diagnosis/Condition of illness of Injury</label><textarea class="form-control" id="diagnosis"></textarea></div>
+                    <div class="mb-3"><label class="form-label" for="email">Name of Doctor</label><input class="form-control" type="email" id="nameOfDoctor"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Address</label><textarea class="form-control" id="address"></textarea></div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-6"><label class="form-label" for="hire-date">Phone/Fax</label><input class="form-control" type="tel" id="phone"></div>
+                            <div class="col-md-6 button"><button class="btn btn-primary d-block w-100" type="submit">Submit Claim</button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div class="container">
+        <div class="avatar" style="background-image:url(&quot;avatars/avatar.jpg&quot;);"></div>
+        <div class="about-me"></div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/myscript.js"></script>
+    <script src="assets/js/sw.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
