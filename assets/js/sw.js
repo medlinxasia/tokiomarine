@@ -1,13 +1,13 @@
 const cacheName = "TokioMarineClaimCenter-offline";
 const preCache = [
-    './',
-    './index.html',
-    './manifest.json',
-    './automobile.html',
-    './hospital.html',
-    './personal-accident.html',
-    './assets/js/myscript.js',
-    './assets/js/theme.js'
+    '/',
+    'index.html',
+    'manifest.json',
+    'automobile.html',
+    'hospital.html',
+    'personal-accident.html',
+    'assets/js/myscript.js',
+    'assets/js/theme.js'
 ];
 
 self.addEventListener('install', e => {
