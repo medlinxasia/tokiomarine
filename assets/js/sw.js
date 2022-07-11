@@ -1,13 +1,14 @@
 const cacheName = "TokioMarineClaimCenter-offline";
+const url = "https://medlinxasia.github.io/tokiomarine";
 const preCache = [
-    './',
-    './index.html',
-    './manifest.json',
-    './automobile.html',
-    './hospital.html',
-    './personal-accident.html',
-    './assets/js/myscript.js',
-    './assets/js/theme.js'
+    url + '/',
+    url + '/index.html',
+    url + '/manifest.json',
+    url + '/automobile.html',
+    url + '/hospital.html',
+    url + '/personal-accident.html',
+    url + '/assets/js/myscript.js',
+    url + '/assets/js/theme.js'
 ];
 
 self.addEventListener('install', e => {
